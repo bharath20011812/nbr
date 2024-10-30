@@ -270,12 +270,12 @@ section.hills-view {
     font-size: 35px;
     text-transform: uppercase;
     display: flex;
-    flex-wara: wrap;
+    flex-wrap: wrap;
 }
 
 .hill-content h2 span {
     color: #274891;
-    width:100%;
+    width: 100%;
 }
 
 .hill-content p {
