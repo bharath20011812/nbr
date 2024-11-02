@@ -128,6 +128,7 @@ section.discopver-sec {
     margin: 5px;
     position: relative;
     width: 50%;
+    overflow: hidden;
 }
 
 .cart-man .legacy-inner {
@@ -143,6 +144,30 @@ section.discopver-sec {
     width: 100%;
     bottom: 0;
     height: 80%;
+    z-index: 2;
+}
+
+.legacy-main .cart-man::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background: #2c2c2c9e;
+    background-position: center;
+    background-size: contain;
+    top: auto;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+    z-index: 1;
+}
+
+.legacy-main .cart-man:hover:after {
+    bottom: -0;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
 }
 
 .cart-man .legacy-inner h3 {
@@ -395,9 +420,20 @@ section.leader-ship {
     padding-top: 4rem;
 }
 
+.blog-maincont {
+    transition: transform 0.3s ease, width 0.3s ease;
+}
+
+.blog-maincont:hover img {
+    transform: scale(1.06);
+}
+
+[data-aos] {
+    animation-duration: 2s;
+}
 
 .blog-maincont img {
-    height: 300px;
+    height: 270px;
 }
 
 section.recent-blog {
@@ -413,6 +449,60 @@ section.recent-blog {
     width: 100%;
 }
 
+.faq-section .faqs-container {
+    overflow: hidden;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+.faqrow-main:last-child {
+    border-bottom: 0px;
+}
+
+.faq-section .faq-singular {
+    position: relative;
+    border-bottom: 1px solid #9D9DA1;
+    padding: 20px 30px 20px 0;
+    width: 100%;
+}
+
+.faq-singular .faq-question {
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+}
+
+.faq-singular .faq-question:before {
+    position: absolute;
+    content: "+";
+    color: #fff;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    font-weight: 700;
+    transition: all .5s;
+    background: #274891;
+    border-radius: 50px;
+    padding: 4px 10px;
+    font-family: 'Archivo-Regular';
+}
+
+.faq-singular.active .faq-question:before {
+    transform: translateY(-50%) rotate(45deg) scale(1.3);
+    padding: 0px 7px;
+}
+
+.faqs-container .faq-answer {
+    display: none;
+    padding: 20px 0px 20px 30px;
+}
+/* footer */
 .footer-section {
     background: #274990;
     padding: 90px 0 20px;
