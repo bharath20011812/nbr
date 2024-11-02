@@ -375,6 +375,8 @@ section.leader-ship {
     margin-bottom: 15px;
     border-bottom: 1px solid #777777;
     padding-bottom: 15px;
+    font-size: 20px;
+    height: 110px;
 }
 
 .blog-inrcont .readmore a {
@@ -865,11 +867,24 @@ nav .icon-burger .line {
     .blog-maincont img {
         height: auto;
     }
+
+    .blog-inrcont h3 {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 375px) {
     .discover-content h2 {
         font-family: 'Helvetica-bold';
         font-size: 22px;
+    }
+
+    .recentnav a.nav-link {
+        font-size: 13px;
+        padding: 8px 10px !important;
+    }
+
+    .recentnav.nav-pills {
+        gap: 2px;
     }
 }
