@@ -393,6 +393,11 @@ section.leader-ship {
     padding-top: 4rem;
 }
 
+
+.blog-maincont img {
+    height: 300px;
+}
+
 section.recent-blog {
     background: #EFEFEF;
     padding: 5rem 0;
@@ -569,10 +574,10 @@ p.connect-btn a {
 }
 
 .header-new nav .icon-burger .line {
-    width: 40px;
+    width: 30px;
     height: 4px;
     background-color: #274990;
-    margin: 4px;
+    margin: 2px;
     border-radius: 3px;
     transition: all .5s ease-in-out;
 }
@@ -587,7 +592,7 @@ p.connect-btn a {
 
 .header-new nav .links {
     position: fixed;
-    z-index: 9;
+    z-index: -1;
     top: 100px;
     left: 0;
     right: 0;
@@ -634,8 +639,8 @@ nav .icon-burger .line {
 }
 
 .header-new #nav-toggle:checked~.links {
-    height: 92%;
-    top: 4rem;
+    height: 95%;
+    top: 3rem;
     padding: 30px 0;
 }
 
@@ -855,6 +860,10 @@ nav .icon-burger .line {
 
     .header-new .logo img {
         width: 70%;
+    }
+
+    .blog-maincont img {
+        height: auto;
     }
 }
 
