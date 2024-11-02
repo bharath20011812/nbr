@@ -423,27 +423,72 @@ section.recent-blog {
 .footer-section a {
     color: #fff;
     font-family: 'Montserrat-regular';
-    font-size: 16px;
-    line-height: 45px;
+    font-size: 14px;
+    line-height: 35px;
 }
 
 .footer-section p {
     color: #fff;
     font-family: 'Montserrat-regular';
     font-size: 16px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-section .row {
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer-div-1 {
+    padding-left: 0;
+}
+
+.footer-section h6 {
+    margin: 30px 0;
 }
 
 .footer-section p small {
     color: #fff;
     font-family: 'Montserrat-regular';
-    font-size: 12px;
+    font-size: 15px;
+    line-height: normal;
 }
 
 .footer-section p b {
     color: #fff;
     font-family: 'Helvetica-regular';
     font-size: 18px;
+    letter-spacing: normal;
+}
+
+.footer-section .brand img.logo {
+    padding: 0;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-div-5 p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+p.location {
+    align-items: start;
+}
+
+.footer-div-5 span img {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-section h6 b {
+    color: #fff;
+    font-family: 'Helvetica-regular';
+    font-size: 22px;
+    font-weight: 400;
+
 }
 
 .footer-certificate-link img {
@@ -692,6 +737,23 @@ nav .icon-burger .line {
 
 }
 
+@media screen and (max-width: 1100px) {
+
+    .footer-section .row .col-lg-2 {
+        width: 32%;
+        margin-bottom: 30px;
+        max-width: 32%;
+        flex: 32%;
+    }
+
+    .footer-section .row .col-lg-3 {
+        width: 50%;
+        margin-bottom: 30px;
+        max-width: 50%;
+        flex: 50%;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .discover-main {
         align-items: center;
@@ -755,16 +817,6 @@ nav .icon-burger .line {
 
     section.leader-ship {
         padding: 50px 10px;
-    }
-
-    .footer-section .row .col-lg-2 {
-        width: 32%;
-        margin-bottom: 30px;
-    }
-
-    .footer-section .row .col-lg-3 {
-        width: 50%;
-        margin-bottom: 30px;
     }
 }
 
@@ -858,6 +910,8 @@ nav .icon-burger .line {
     .footer-section .row .col-lg-2,
     .footer-section .row .col-lg-3 {
         width: 100%;
+        max-width: 100%;
+        flex: 100%;
     }
 
     .header-new .logo img {
