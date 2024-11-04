@@ -79,3 +79,13 @@ $(function () {
     });
 
 });
+
+
+$('.moreless-button').click(function() {
+    $('.moretext').slideToggle();
+    if ($('.moreless-button').text() == "Less") {
+      $(this).text("More")
+    } else {
+      $(this).text("Less")
+    }
+  });
