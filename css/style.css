@@ -334,6 +334,18 @@ section.leader-ship {
     margin-top: 2rem;
 }
 
+.director-imgt {
+    transition: transform 0.3s ease, width 0.3s ease;
+}
+
+section.leader-ship h2::after {
+    display: none;
+}
+
+.director-imgt:hover img {
+    transform: scale(1.06);
+}
+
 .leadership-carousel .owl-dots {
     display: block !important;
     text-align: left;
