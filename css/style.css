@@ -198,18 +198,24 @@ section.discopver-sec {
 .landmark-carousel .Landloct-detail {
     background: #00000099;
     position: absolute;
-    bottom: 5%;
-    padding: 10px;
-}
-
-.landmark-carousel .Landloct-detail {
-    background: #00000099;
-    position: absolute;
     bottom: 3%;
     padding: 20px;
     width: 40%;
     right: 3%;
     color: #fff;
+    transition: all .9s ease-in;
+}
+
+.landmark-carousel .Landloct-detail p {
+    display: none;
+}
+
+.landmark-carousel:hover .Landloct-detail p {
+    display: block;
+}
+
+.landmark-carousel:hover .Landloct-detail{
+    width: 50%;
 }
 
 .landmark-carousel .Landloct-detail h3 {
@@ -924,6 +930,12 @@ nav .icon-burger .line {
 
     section.leader-ship {
         padding: 50px 10px;
+    }
+    .landmark-carousel:hover .Landloct-detail{
+        width: 100%;
+    }
+    .landmark-carousel .Landloct-detail p {
+        display: block;
     }
 }
 
