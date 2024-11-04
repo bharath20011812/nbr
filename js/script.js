@@ -37,7 +37,7 @@ $(function () {
     });
 
     $(".landmark-carousel").owlCarousel({
-        loop: true,
+        loop: false,
         margin: 10,
         items: 1,
         nav: true,
