@@ -545,7 +545,7 @@ section.recent-blog {
 }
 
 p.read-more {
-    margin: 20px 0;
+    margin: 20px 10px;
 }
 
 .footer-section {
@@ -630,35 +630,38 @@ p.location {
     width: 85%;
 }
 
-.footer-social-link li {
-    width: auto;
-    background: #274990;
-    border: 0;
-    height: auto;
-    line-height: normal;
-    border-radius: 0;
+.social-flex.row {
+    align-items: center;
 }
 
 .footer-social-link li i {
-    background-color: #fff;
-}
-
-.footer-social-link li i {
-    background-color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 100px;
     color: #274990;
+    font-size: 20px;
 }
 
-.footer-social-link li i.fa-brands.fa-facebook-f {
-    padding: 10px 12px;
+section.footer-social {
+    border-top: 1px solid;
+    padding: 10px 0 0;
 }
 
-.footer-social-link li:hover {
-    background-color: #274990;
-    border: 0 !important;
+
+
+.social-flex.row .copy-ryt p,
+.policy-col a {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #274990;
+    font-family: 'Scheherazade-bold';
 }
+
+.col-lg-4.policy-col {
+    text-align: right;
+}
+
+.social-flex .policy-col {
+    text-align: center;
+}
+
 
 /* header */
 p.connect-btn {
@@ -964,6 +967,12 @@ nav .icon-burger .line {
 
     .landmark-carousel .Landloct-detail p {
         display: block;
+    }
+
+    .social-flex.row {
+        align-items: center;
+        text-align: center;
+        flex-direction: column-reverse;
     }
 }
 
