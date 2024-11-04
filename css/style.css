@@ -1,31 +1,16 @@
 @font-face {
-    src: url('../font/Helvetica-Bold.ttf');
-    font-family: 'Helvetica-bold';
+    src: url('../font/ScheherazadeNew-Bold.ttf');
+    font-family: 'Scheherazade-bold';
 }
 
 @font-face {
-    src: url('../font/Helvetica.ttf');
-    font-family: 'Helvetica-regular';
+    src: url('../font/ScheherazadeNew-Regular.ttf');
+    font-family: 'Scheherazade-regular';
 }
 
 @font-face {
-    src: url('../font/Montserrat-Bold.ttf');
-    font-family: 'Montserrat-bold';
-}
-
-@font-face {
-    src: url('../font/Montserrat-Regular.ttf');
-    font-family: 'Montserrat-regular';
-}
-
-@font-face {
-    src: url('../font/Lato-Bold.ttf');
-    font-family: 'Lato-bold';
-}
-
-@font-face {
-    src: url('../font/Lato-Regular.ttf');
-    font-family: 'Lato-regular';
+    src: url('../font/ScheherazadeNew-SemiBold.ttf');
+    font-family: 'Scheherazade-semibold';
 }
 
 html {
@@ -35,7 +20,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Helvetica-regular';
+    font-family: 'Scheherazade-regular';
 }
 
 .banner {
@@ -57,7 +42,7 @@ body {
     text-align: center;
     border: 2px solid #274990;
     font-weight: 600;
-    font-family: 'Montserrat-regular';
+    font-family: 'Scheherazade-regular';
 }
 
 .custom-btn:after {
@@ -118,10 +103,11 @@ section.discopver-sec {
 }
 
 .discover-content h2 {
-    font-family: 'Helvetica-bold';
-    font-size: 35px;
-    line-height: 53px;
+    font-family: 'Scheherazade-bold';
+    font-size: 40px;
+    line-height: 45px;
     margin-bottom: 30px;
+    font-weight: 700;
 }
 
 .legacy-main .cart-man {
@@ -139,7 +125,7 @@ section.discopver-sec {
 }
 
 .cart-man .overlay {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 7.52%, rgba(0, 0, 0, 0.7) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 7.52%, rgb(0 0 0 / 95%) 100%);
     position: absolute;
     width: 100%;
     bottom: 0;
@@ -172,15 +158,15 @@ section.discopver-sec {
 
 .cart-man .legacy-inner h3 {
     color: #fff;
-    font-family: 'Lato-bold';
+    font-family: 'Scheherazade-bold';
     text-transform: uppercase;
 }
 
 .cart-man .legacy-inner p {
     color: #fff;
-    font-family: 'Lato-regular';
-    font-size: 18px;
-    line-height: normal;
+    font-family: 'Scheherazade-regular';
+    font-size: 20px;
+    line-height: 30px;
 }
 
 /* Land mark */
@@ -206,34 +192,38 @@ section.discopver-sec {
     transition: all .9s ease-in;
 }
 
-.landmark-carousel .Landloct-detail p {
-    display: none;
+.landmark-carousel {
+    transition: all .3s ease-in;
 }
+
+/* .landmark-carousel .Landloct-detail p {
+    display: none;
+} */
 
 .landmark-carousel:hover .Landloct-detail p {
     display: block;
 }
 
-.landmark-carousel:hover .Landloct-detail{
-    width: 50%;
+.landmark-carousel:hover .Landloct-detail {
+    transform: scale(1.06);
 }
 
 .landmark-carousel .Landloct-detail h3 {
     color: #fff;
-    font-family: 'Helvetica-bold';
+    font-family: 'Scheherazade-bold';
 }
 
 .landmark-carousel .Landloct-detail p {
     color: #fff;
-    font-family: 'Lato-regular';
-    font-size: 18px;
+    font-family: 'Scheherazade-regular';
+    font-size: 22px;
     line-height: 25px;
 }
 
 .landmark-carousel .land-name h2 {
     color: #fff;
     margin: 0;
-    font-family: 'Helvetica-bold';
+    font-family: 'Scheherazade-bold';
     text-transform: uppercase;
     padding: 0 40px 0 10px;
 }
@@ -268,12 +258,16 @@ button:focus {
 
 
 /* Hill View */
+.hillview-carousel .owl-nav {
+    display: block !important;
+}
+
 .hillview-carousel .owl-next {
-    right: -4%;
+    right: -3%;
 }
 
 .hillview-carousel .owl-prev {
-    left: -4%;
+    left: -6%;
 }
 
 .col-lg-6.viewimg-slide {
@@ -297,11 +291,15 @@ section.hills-view {
 }
 
 .hill-content h2 {
-    font-family: 'Helvetica-bold';
+    font-family: 'Scheherazade-bold';
     font-size: 35px;
     text-transform: uppercase;
     display: flex;
     flex-wrap: wrap;
+}
+
+.hill-content h2::after {
+    display: none;
 }
 
 .hill-content h2 span {
@@ -310,8 +308,8 @@ section.hills-view {
 }
 
 .hill-content p {
-    font-family: 'Montserrat-regular';
-    font-size: 18px;
+    font-family: 'Scheherazade-regular';
+    font-size: 20px;
     line-height: 30px;
     padding-right: 20px;
     color: #000;
@@ -323,14 +321,14 @@ section.leader-ship {
 }
 
 .leader-ship h2 {
-    font-family: 'Helvetica-bold';
+    font-family: 'Scheherazade-bold';
     font-size: 35px;
     text-transform: uppercase;
 }
 
 .leadership-carousel p {
-    font-family: 'Helvetica-regular';
-    font-size: 20px;
+    font-family: 'Scheherazade-regular';
+    font-size: 22px;
     line-height: 32px;
     padding-right: 20px;
     color: #000;
@@ -348,7 +346,7 @@ section.leader-ship h2::after {
     display: none;
 }
 
-.director-imgt:hover img {
+.leadership-carousel:hover img {
     transform: scale(1.06);
 }
 
@@ -387,7 +385,7 @@ section.leader-ship h2::after {
     font-size: 25px;
     padding: 12px 27px !important;
     border-radius: 0;
-    font-family: 'Montserrat-regular';
+    font-family: 'Scheherazade-regular';
     background: #E0E0E0 !important;
     color: #626262 !important;
 }
@@ -407,14 +405,14 @@ section.leader-ship h2::after {
 
 .blog-inrcont .blog-date {
     color: #000;
-    font-family: 'Montserrat-regular';
+    font-family: 'Scheherazade-regular';
     font-size: 18px;
     margin: 0;
     font-weight: 500;
 }
 
 .blog-inrcont h3 {
-    font-family: 'Helvetica-bold';
+    font-family: 'Scheherazade-bold';
     margin-bottom: 15px;
     border-bottom: 1px solid #777777;
     padding-bottom: 15px;
@@ -491,8 +489,8 @@ section.recent-blog {
     margin: 0;
     padding: 10px;
     font-weight: 500;
-    font-size: 22px;
-    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-family: 'Scheherazade-regular';
 }
 
 .faq-singular .faq-question:before {
@@ -507,17 +505,17 @@ section.recent-blog {
     transition: all .5s;
     background: #274891;
     border-radius: 50px;
-    padding: 4px 10px;
-    font-family: 'Archivo-Regular';
+    padding: 5px 15px 8px;
+    font-family: 'Scheherazade-regular';
 }
 
 .faq-answer>div {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .faq-singular.active .faq-question:before {
     transform: translateY(-50%) rotate(45deg) scale(1.3);
-    padding: 0px 7px;
+    padding: 0px 10px 2px;
 }
 
 .faqs-container .faq-answer {
@@ -535,14 +533,14 @@ section.recent-blog {
 
 .footer-section a {
     color: #fff;
-    font-family: 'Montserrat-regular';
-    font-size: 14px;
+    font-family: 'Scheherazade-regular';
+    font-size: 16px;
     line-height: 35px;
 }
 
 .footer-section p {
     color: #fff;
-    font-family: 'Montserrat-regular';
+    font-family: 'Scheherazade-regular';
     font-size: 16px;
     margin-bottom: 15px;
 }
@@ -563,15 +561,15 @@ section.recent-blog {
 
 .footer-section p small {
     color: #fff;
-    font-family: 'Montserrat-regular';
+    font-family: 'Scheherazade-regular';
     font-size: 15px;
     line-height: normal;
 }
 
 .footer-section p b {
     color: #fff;
-    font-family: 'Helvetica-regular';
-    font-size: 18px;
+    font-family: 'Scheherazade-regular';
+    font-size: 20px;
     letter-spacing: normal;
 }
 
@@ -598,7 +596,7 @@ p.location {
 
 .footer-section h6 b {
     color: #fff;
-    font-family: 'Helvetica-regular';
+    font-family: 'Scheherazade-regular';
     font-size: 22px;
     font-weight: 400;
 
@@ -641,13 +639,15 @@ p.location {
 /* header */
 p.connect-btn {
     margin: 0;
+    border: 1px solid #274990;
+    padding: 10px 30px;
+    border-radius: 10px;
 }
 
 p.connect-btn a {
     font-size: 20px;
-    border: 1px solid #274990;
-    padding: 8px 25px;
-    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 /* Navigation */
@@ -769,7 +769,7 @@ p.connect-btn a {
 .header-new nav .links a:not(:has(img)) {
     font-size: 18px;
     color: #000000;
-    font-family: 'PlusJakart-bold';
+    font-family: 'Scheherazade-bold';
 }
 
 .header-new nav .links {
@@ -931,9 +931,11 @@ nav .icon-burger .line {
     section.leader-ship {
         padding: 50px 10px;
     }
-    .landmark-carousel:hover .Landloct-detail{
+
+    .landmark-carousel:hover .Landloct-detail {
         width: 100%;
     }
+
     .landmark-carousel .Landloct-detail p {
         display: block;
     }
@@ -941,7 +943,7 @@ nav .icon-burger .line {
 
 @media screen and (max-width: 600px) {
     .discover-content h2 {
-        font-family: 'Helvetica-bold';
+        font-family: 'Scheherazade-bold';
         font-size: 29px;
         line-height: 35px;
         margin-bottom: 30px;
@@ -1048,7 +1050,7 @@ nav .icon-burger .line {
 
 @media screen and (max-width: 375px) {
     .discover-content h2 {
-        font-family: 'Helvetica-bold';
+        font-family: 'Scheherazade-bold';
         font-size: 22px;
     }
 
