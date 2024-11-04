@@ -671,7 +671,9 @@ p.connect-btn {
 p.connect-btn a {
     font-size: 20px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
+    color: #274990;
+    letter-spacing: 2px;
 }
 
 /* Navigation */
