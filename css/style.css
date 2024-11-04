@@ -524,6 +524,25 @@ section.recent-blog {
 }
 
 /* footer */
+.moretext {
+    display: none;
+}
+
+.read-more .moreless-button {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.read-more i {
+    color: #000;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+p.read-more {
+    margin: 20px 0;
+}
+
 .footer-section {
     background: #274990;
     padding: 90px 0 20px;
