@@ -1035,7 +1035,6 @@ nav .icon-burger .line {
 
 @media screen and (max-width: 600px) {
     .discover-content h2 {
-        font-family: 'Scheherazade-bold';
         font-size: 29px;
         line-height: 35px;
         margin-bottom: 30px;
@@ -1157,7 +1156,6 @@ nav .icon-burger .line {
     }
 
     .discover-content h2 {
-        font-family: 'Scheherazade-bold';
         line-height: 29px;
     }
 
@@ -1234,7 +1232,6 @@ nav .icon-burger .line {
     }
 
     .discover-content h2 {
-        font-family: 'Scheherazade-bold';
         font-size: 30px;
         margin: 20px;
     }
