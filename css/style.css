@@ -846,6 +846,15 @@ nav .icon-burger .line {
     opacity: 0;
 }
 
+
+.mobile-block {
+    display: none;
+}
+
+.discover-content h2:after {
+    display: none;
+}
+
 @media screen and (max-width: 1300px) {
 
     .hillview-carousel .owl-next,
@@ -899,7 +908,21 @@ nav .icon-burger .line {
 @media screen and (max-width: 991px) {
     .discover-main {
         align-items: center;
-        gap: 30px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .desktop-block {
+        display: none;
+    }
+
+    .discover-content h2 {
+        text-align: center;
+    }
+
+    .mobile-block {
+        display: block;
+        margin-top: 30px;
     }
 
     .landmark-carousel .Landloct-detail {
@@ -974,6 +997,7 @@ nav .icon-burger .line {
         text-align: center;
         flex-direction: column-reverse;
     }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -1091,6 +1115,7 @@ nav .icon-burger .line {
         padding: 30px 0 20px;
         width: 100%;
         color: #fff;
+        margin: 0;
     }
 
     section.recent-blog {
@@ -1112,7 +1137,7 @@ nav .icon-burger .line {
         position: absolute;
         top: auto;
         font-size: 20px !important;
-        bottom: 0;
+        bottom: -3rem;
     }
 
     .hillview-carousel .owl-next,
@@ -1123,6 +1148,23 @@ nav .icon-burger .line {
     .hillview-carousel .owl-prev,
     .landmark-carousel .owl-prev {
         left: 10px;
+    }
+
+    .director-imgt {
+        padding: 0;
+    }
+
+    .leadership-carousel p,
+    .director-man .director-conte {
+        padding: 0;
+    }
+
+    .leadership-carousel .owl-dots {
+        text-align: center;
+    }
+
+    .footer-section .row>div {
+        padding: 0;
     }
 
 }
@@ -1141,14 +1183,31 @@ nav .icon-burger .line {
     .discover-main .discover-img {
         padding: 0;
     }
+
+    .landmark-carousel .Landloct-detail p {
+        color: #fff;
+        font-family: 'Scheherazade-regular';
+        font-size: 15px;
+        line-height: 20px;
+        margin: 0;
+    }
+
+    .landmark-carousel .Landloct-detail {
+        padding: 10px;
+    }
+
+    .row.hill-main {
+        padding: 0;
+    }
+
+    .discover-content h2 {
+        font-family: 'Scheherazade-bold';
+        font-size: 30px;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 375px) {
-    .discover-content h2 {
-        font-family: 'Scheherazade-bold';
-        font-size: 22px;
-    }
-
     .recentnav a.nav-link {
         font-size: 13px;
         padding: 8px 10px !important;
