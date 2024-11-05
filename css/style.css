@@ -103,11 +103,11 @@ section.discopver-sec {
 }
 
 .discover-content h2 {
-    font-family: 'Scheherazade-bold';
+    font-family: 'Scheherazade-regular';
     font-size: 40px;
     line-height: 45px;
     margin-bottom: 30px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .legacy-main .cart-man {
@@ -239,7 +239,7 @@ section.discopver-sec {
     border-radius: 100% !important;
     padding: 10px 22px !important;
     position: absolute;
-    top: 50%;
+    top: 40%;
     font-size: 20px !important;
 }
 
@@ -263,11 +263,11 @@ button:focus {
 }
 
 .hillview-carousel .owl-next {
-    right: -3%;
+    right: -10%;
 }
 
 .hillview-carousel .owl-prev {
-    left: -6%;
+    left: -10%;
 }
 
 .col-lg-6.viewimg-slide {
@@ -414,7 +414,6 @@ section.leader-ship h2::after {
 .blog-inrcont h3 {
     font-family: 'Scheherazade-bold';
     margin-bottom: 15px;
-    border-bottom: 1px solid #777777;
     padding-bottom: 15px;
     font-size: 20px;
     height: 110px;
@@ -524,9 +523,9 @@ section.recent-blog {
 }
 
 /* footer */
-.moretext {
+/* .moretext {
     display: none;
-}
+} */
 
 .read-more .moreless-button {
     font-size: 30px;
@@ -550,7 +549,7 @@ p.read-more {
 
 .footer-section {
     background: #274990;
-    padding: 90px 0 20px;
+    padding: 50px 0 20px;
     width: 100%;
     color: #fff;
 }
@@ -1030,7 +1029,7 @@ nav .icon-burger .line {
     }
 
     section.Landmark.py-5 {
-        padding-bottom: 6rem !important;
+        padding-bottom: 0rem !important;
     }
 
     .landmark-carousel button {
@@ -1080,6 +1079,67 @@ nav .icon-burger .line {
 
     .blog-inrcont h3 {
         height: auto;
+    }
+
+    .col-lg-4.director-imgt img {
+        width: 100%;
+    }
+
+    .footer-section {
+        background: #274990;
+        padding: 30px 0 20px;
+        width: 100%;
+        color: #fff;
+    }
+
+    section.recent-blog {
+        background: #EFEFEF;
+        padding: 2rem 0;
+    }
+
+    .discover-content h2 {
+        font-family: 'Scheherazade-bold';
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .hillview-carousel button {
+        background: #fff !important;
+        color: #000 !important;
+        box-shadow: 0px 0px 74.59px 11.65px #00000024;
+        border-radius: 100% !important;
+        padding: 10px 22px !important;
+        position: absolute;
+        top: auto;
+        font-size: 20px !important;
+        bottom: 0;
+    }
+
+    .hillview-carousel .owl-next,
+    .landmark-carousel .owl-next {
+        right: 5%;
+    }
+
+    .hillview-carousel .owl-prev,
+    .landmark-carousel .owl-prev {
+        left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .landmark-carousel .land-name h2 {
+        color: #fff;
+        margin: 0;
+        font-family: 'Scheherazade-bold';
+        text-transform: uppercase;
+        padding: 0 20px 0 0px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .discover-main .discover-img {
+        padding: 0;
     }
 }
 
