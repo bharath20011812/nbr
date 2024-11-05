@@ -275,7 +275,7 @@ button:focus {
     padding: 0;
 }
 
-.hillview-carousel button {
+.hillview-carousel .owl-nav button {
     background: #fff !important;
     color: #000 !important;
     box-shadow: 0px 0px 74.59px 11.65px #00000024;
@@ -284,6 +284,21 @@ button:focus {
     position: absolute;
     top: 50%;
     font-size: 20px !important;
+}
+
+.hillview-carousel .owl-dots button {
+    background: #EFEFEF !important;
+    color: #000 !important;
+    padding: 0 !important;
+}
+
+.hillview-carousel .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+}
+
+.hillview-carousel .owl-dots .owl-dot.active span, .hillview-carousel .owl-theme .owl-dots .owl-dot:hover span {
+    background: #365698;
 }
 
 section.hills-view {
@@ -314,6 +329,13 @@ section.hills-view {
     line-height: 30px;
     padding-right: 20px;
     color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    position: relative;
+    z-index: 99;
 }
 
 /* Leadership */
@@ -848,7 +870,7 @@ nav .icon-burger .line {
 
 
 .mobile-block {
-    display: none;
+    display: none !important;
 }
 
 .discover-content h2:after {
@@ -913,7 +935,7 @@ nav .icon-burger .line {
     }
 
     .desktop-block {
-        display: none;
+        display: none !important;
     }
 
     .discover-content h2 {
@@ -921,7 +943,7 @@ nav .icon-burger .line {
     }
 
     .mobile-block {
-        display: block;
+        display: block !important;
         margin-top: 30px;
     }
 
@@ -997,6 +1019,17 @@ nav .icon-burger .line {
         text-align: center;
         flex-direction: column-reverse;
     }
+
+    .hillview-carousel .owl-nav {
+        display: none !important;
+    }
+
+    .hillview-carousel .owl-dots {
+        display: block !important;
+        margin-top: 20px;
+    }
+
+    .hillview-carousel button {}
 
 }
 
@@ -1128,7 +1161,7 @@ nav .icon-burger .line {
         line-height: 29px;
     }
 
-    .hillview-carousel button {
+    .hillview-carousel .owl-nav button {
         background: #fff !important;
         color: #000 !important;
         box-shadow: 0px 0px 74.59px 11.65px #00000024;
