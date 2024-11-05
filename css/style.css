@@ -297,7 +297,8 @@ button:focus {
     height: 15px;
 }
 
-.hillview-carousel .owl-dots .owl-dot.active span, .hillview-carousel .owl-theme .owl-dots .owl-dot:hover span {
+.hillview-carousel .owl-dots .owl-dot.active span,
+.hillview-carousel .owl-theme .owl-dots .owl-dot:hover span {
     background: #365698;
 }
 
@@ -877,6 +878,84 @@ nav .icon-burger .line {
     display: none;
 }
 
+/* about us apge */
+.about-page .section-padding span {
+    font-family: 'Scheherazade-regular';
+    font-size: 20px;
+}
+
+.about-page h1 {
+    font-family: 'Scheherazade-bold';
+    font-size: 50px;
+    line-height: 52px;
+}
+
+.about-page h2 {
+    font-family: 'Scheherazade-bold';
+    font-size: 40px;
+}
+
+.about-page p b,
+.about-page p {
+    font-family: 'Scheherazade-regular';
+    font-size: 15px;
+}
+
+.about-page .leader-ship p {
+    font-size: 22px;
+}
+
+.team-holder p {
+    font-size: 22px;
+}
+
+.partial_border p {
+    font-size: 20px;
+}
+
+.partner.about_us .item span {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.partner p {
+    font-size: 17px;
+}
+
+.partner.about_us {
+    padding-bottom: 0;
+}
+
+.office-member {
+    background: #EDEEF2;
+}
+
+.team-inrcont h3 {
+    font-family: 'Scheherazade-regular';
+    font-size: 30px;
+    margin: 0;
+}
+
+.team-inrcont h5 {
+    font-family: 'Scheherazade-regular';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.team-inrcont p {
+    font-family: 'Scheherazade-regular';
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.member-detail {
+    margin-top: 30px;
+}
+
+.about-page .leader-ship {
+    padding: 50px 0;
+}
+
 @media screen and (max-width: 1300px) {
 
     .hillview-carousel .owl-next,
@@ -1029,7 +1108,14 @@ nav .icon-burger .line {
         margin-top: 20px;
     }
 
-    .hillview-carousel button {}
+    .member-detail {
+        margin-top: 30px;
+        width: 50%;
+    }
+
+    .office-member{
+        padding: 60px 0;
+    }
 
 }
 
@@ -1196,6 +1282,10 @@ nav .icon-burger .line {
 
     .footer-section .row>div {
         padding: 0;
+    }
+    .member-detail {
+        margin-top: 30px;
+        width: 100%;
     }
 
 }
