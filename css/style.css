@@ -1150,13 +1150,11 @@ nav .icon-burger .line {
         width: 100%;
     }
 
-    .landmark-carousel .owl-nav button,
-    .desktop-land {
+    .landmark-carousel .owl-nav button {
         display: none !important;
     }
 
-    .landmark-carousel .owl-dots,
-    .mobile-land {
+    .landmark-carousel .owl-dots {
         display: block !important;
     }
 
@@ -1199,6 +1197,11 @@ nav .icon-burger .line {
 
     .land-name:hover {
         width: 80%;
+        height: auto;
+    }
+
+    .landmark-carousel .item img {
+        height: 550px;
     }
 
     /* .landmark-carousel .land-name {
@@ -1351,9 +1354,16 @@ nav .icon-burger .line {
     }
 
     .landmark-carousel .item img {
-        height: 550px;
+        height: auto;
     }
 
+    .desktop-land {
+        display: none !important;
+    }
+
+    .mobile-land {
+        display: block !important;
+    }
 
     .hillview-carousel .owl-nav button {
         background: #fff !important;
@@ -1398,6 +1408,10 @@ nav .icon-burger .line {
         margin-top: 30px;
         width: 100%;
     }
+
+    .land-name:hover {
+        top: 25%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -1424,16 +1438,13 @@ nav .icon-burger .line {
         margin-bottom: 20px;
     }
 
-    .landmark-carousel .land-name {
-        padding: 10px;
-    }
-
     .landmark-carousel .land-name h2 {
         font-size: 30px;
     }
 
     .landmark-carousel .land-name {
         width: 88%;
+        padding: 10px;
     }
 
     .land-name:hover {
@@ -1463,5 +1474,9 @@ nav .icon-burger .line {
 
     section.recent-blog {
         padding-top: 0;
+    }
+
+    .land-name:hover {
+        top: 15%;
     }
 }
