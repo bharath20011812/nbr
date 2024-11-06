@@ -1177,7 +1177,7 @@ nav .icon-burger .line {
         display: block !important;
         margin-top: 20px;
         position: absolute;
-        bottom: 50px;
+        bottom: 15px;
         text-align: center;
         left: 0;
         right: 0;
@@ -1431,5 +1431,14 @@ nav .icon-burger .line {
 
     .landmark-carousel .location p {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .hillview-carousel .owl-dots {
+        bottom: 48px;
+    }
+    section.recent-blog{
+        padding-top: 0;
     }
 }
