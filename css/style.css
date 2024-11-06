@@ -191,6 +191,10 @@ section.discopver-sec {
     position: relative;
 }
 
+.mobile-land {
+    display: none !important;
+}
+
 .landmark-carousel {
     transition: all .3s ease-in;
 }
@@ -220,7 +224,7 @@ section.discopver-sec {
 .landmark-carousel .land-name {
     background: #00000099;
     position: absolute;
-    top: 20%;
+    top: 35%;
     padding: 50px 25px;
     width: 32%;
     text-align: center;
@@ -243,6 +247,7 @@ section.discopver-sec {
     align-items: center;
     text-align: center;
     justify-content: center;
+    top: 20%;
 }
 
 .landmark-carousel .land-name h2 {
@@ -1042,11 +1047,11 @@ nav .icon-burger .line {
 
     .landmark-carousel .land-name {
         width: 36%;
-        top: 10%;
     }
 
     .land-name:hover {
         width: 80%;
+        top: 10%;
     }
 
 
@@ -1087,12 +1092,6 @@ nav .icon-burger .line {
     .mobile-block {
         display: block !important;
         margin-top: 30px;
-    }
-
-    .landmark-carousel .Landloct-detail {
-        position: unset;
-        padding: 20px;
-        width: 100%;
     }
 
     .hill-content .custom-btn {
@@ -1151,15 +1150,13 @@ nav .icon-burger .line {
         width: 100%;
     }
 
-    .landmark-carousel .Landloct-detail p {
-        display: block;
-    }
-
-    .landmark-carousel .owl-nav button {
+    .landmark-carousel .owl-nav button,
+    .desktop-land {
         display: none !important;
     }
 
-    .landmark-carousel .owl-dots {
+    .landmark-carousel .owl-dots,
+    .mobile-land {
         display: block !important;
     }
 
@@ -1197,6 +1194,14 @@ nav .icon-burger .line {
     }
 
     .landmark-carousel .land-name {
+        width: 60%;
+    }
+
+    .land-name:hover {
+        width: 80%;
+    }
+
+    /* .landmark-carousel .land-name {
         position: unset;
         width: 100%;
     }
@@ -1204,7 +1209,8 @@ nav .icon-burger .line {
     .land-name:hover {
         display: block;
         height: auto;
-    }
+    } */
+
 
 }
 
@@ -1340,6 +1346,14 @@ nav .icon-burger .line {
         font-size: 18px;
     }
 
+    .landmark-carousel .land-name h2 {
+        font-size: 30px;
+    }
+
+    .landmark-carousel .item img {
+        height: 550px;
+    }
+
 
     .hillview-carousel .owl-nav button {
         background: #fff !important;
@@ -1417,6 +1431,14 @@ nav .icon-burger .line {
     .landmark-carousel .land-name h2 {
         font-size: 30px;
     }
+
+    .landmark-carousel .land-name {
+        width: 88%;
+    }
+
+    .land-name:hover {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -1438,7 +1460,8 @@ nav .icon-burger .line {
     .hillview-carousel .owl-dots {
         bottom: 48px;
     }
-    section.recent-blog{
+
+    section.recent-blog {
         padding-top: 0;
     }
 }
