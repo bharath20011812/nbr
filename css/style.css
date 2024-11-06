@@ -13,6 +13,21 @@
     font-family: 'Scheherazade-semibold';
 }
 
+@font-face {
+    src: url('../font/Montserrat-Bold.ttf');
+    font-family: 'Montserrat-bold';
+}
+
+@font-face {
+    src: url('../font/Montserrat-Regular.ttf');
+    font-family: 'Montserrat-regular';
+}
+
+@font-face {
+    src: url('../font/Montserrat-SemiBold.ttf');
+    font-family: 'Montserrat-semibold';
+}
+
 html {
     width: 100%;
 }
@@ -20,7 +35,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
 }
 
 .banner {
@@ -38,12 +53,12 @@ body {
     border: none;
     z-index: 1;
     padding: 10px 35px;
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     border: 2px solid #274990;
     font-weight: 600;
-    font-family: 'Scheherazade-regular';
-    letter-spacing: 3px;
+    font-family: 'Montserrat-regular';
+    letter-spacing: 2px;
 }
 
 .custom-btn:after {
@@ -104,10 +119,10 @@ section.discopver-sec {
 }
 
 .discover-content h2 {
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
     font-size: 40px;
     line-height: 45px;
-    margin-bottom: 30px;
+    margin-bottom: 4rem;
     font-weight: 500;
 }
 
@@ -159,15 +174,16 @@ section.discopver-sec {
 
 .cart-man .legacy-inner h3 {
     color: #fff;
-    font-family: 'Scheherazade-bold';
+    font-family: 'Montserrat-semibold';
     text-transform: uppercase;
+    font-size: 25px;
 }
 
 .cart-man .legacy-inner p {
     color: #fff;
-    font-family: 'Scheherazade-regular';
-    font-size: 20px;
-    line-height: 30px;
+    font-family: 'Montserrat-regular';
+    font-size: 15px;
+    line-height: 28px;
 }
 
 /* Land mark */
@@ -175,62 +191,86 @@ section.discopver-sec {
     position: relative;
 }
 
-.landmark-carousel .land-name {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
-    position: absolute;
-    top: 5%;
-    padding: 10px;
-}
-
-.landmark-carousel .Landloct-detail {
-    background: #00000099;
-    position: absolute;
-    bottom: 3%;
-    padding: 20px;
-    width: 40%;
-    right: 3%;
-    color: #fff;
-    transition: all .9s ease-in;
-}
-
 .landmark-carousel {
     transition: all .3s ease-in;
 }
 
-/* .landmark-carousel .Landloct-detail p {
+.landmark-carousel .Landloct-detail p {
     display: none;
-} */
-
-.landmark-carousel:hover .Landloct-detail p {
-    display: block;
 }
 
-.landmark-carousel:hover .Landloct-detail {
-    transform: scale(1.06);
+.land-name:hover .Landloct-detail p {
+    display: block;
 }
 
 .landmark-carousel .Landloct-detail h3 {
     color: #fff;
-    font-family: 'Scheherazade-bold';
+    font-family: 'Montserrat-bold';
 }
 
 .landmark-carousel .Landloct-detail p {
     color: #fff;
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
     font-size: 22px;
-    line-height: 25px;
+    line-height: 32px;
+    transition: all .9s ease-in;
+    text-align: center;
+}
+
+.landmark-carousel .land-name {
+    background: #00000099;
+    position: absolute;
+    top: 20%;
+    padding: 50px 25px;
+    width: 32%;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.location {
+    text-align: left;
+}
+
+
+.land-name:hover {
+    width: 50%;
+    transition: all .3s ease-in;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .landmark-carousel .land-name h2 {
     color: #fff;
     margin: 0;
-    font-family: 'Scheherazade-bold';
+    font-family: 'Montserrat-regular';
     text-transform: uppercase;
-    padding: 0 40px 0 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.landmark-carousel .location p {
+    font-size: 35px;
+    font-family: 'Montserrat-bold';
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .landmark-carousel .land-name h2::after {
     display: none;
+}
+
+.land-name br {
+    display: block;
+}
+
+.landmark-carousel .owl-nav {
+    margin: 0;
 }
 
 .landmark-carousel button {
@@ -246,11 +286,11 @@ section.discopver-sec {
 
 
 .landmark-carousel .owl-next {
-    right: -2.5%;
+    right: 0%;
 }
 
 .landmark-carousel .owl-prev {
-    left: -2.5%;
+    left: 0%;
 }
 
 button:focus {
@@ -308,7 +348,7 @@ section.hills-view {
 }
 
 .hill-content h2 {
-    font-family: 'Scheherazade-bold';
+    font-family: 'Montserrat-bold';
     font-size: 35px;
     text-transform: uppercase;
     display: flex;
@@ -325,8 +365,8 @@ section.hills-view {
 }
 
 .hill-content p {
-    font-family: 'Scheherazade-regular';
-    font-size: 20px;
+    font-family: 'Montserrat-regular';
+    font-size: 18px;
     line-height: 30px;
     padding-right: 20px;
     color: #000;
@@ -345,13 +385,13 @@ section.leader-ship {
 }
 
 .leader-ship h2 {
-    font-family: 'Scheherazade-bold';
+    font-family: 'Montserrat-bold';
     font-size: 35px;
     text-transform: uppercase;
 }
 
 .leadership-carousel p {
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
     font-size: 22px;
     line-height: 32px;
     padding-right: 20px;
@@ -409,7 +449,7 @@ section.leader-ship h2::after {
     font-size: 25px;
     padding: 12px 27px !important;
     border-radius: 0;
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
     background: #E0E0E0 !important;
     color: #626262 !important;
 }
@@ -429,23 +469,23 @@ section.leader-ship h2::after {
 
 .blog-inrcont .blog-date {
     color: #000;
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
     font-size: 18px;
     margin: 0;
     font-weight: 500;
 }
 
 .blog-inrcont h3 {
-    font-family: 'Scheherazade-bold';
+    font-family: 'Montserrat-semibold';
     margin-bottom: 15px;
     padding-bottom: 15px;
-    font-size: 20px;
-    height: 110px;
+    font-size: 18px;
+    height: 90px;
 }
 
 .blog-inrcont .readmore a {
     color: #274991;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -476,7 +516,6 @@ section.leader-ship h2::after {
 }
 
 section.recent-blog {
-    background: #EFEFEF;
     padding: 3rem 0;
 }
 
@@ -513,7 +552,7 @@ section.recent-blog {
     padding: 10px;
     font-weight: 500;
     font-size: 24px;
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
 }
 
 .faq-singular .faq-question:before {
@@ -529,7 +568,7 @@ section.recent-blog {
     background: #274891;
     border-radius: 50px;
     padding: 5px 15px 8px;
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
 }
 
 .faq-answer>div {
@@ -580,14 +619,14 @@ p.read-more {
 
 .footer-section a {
     color: #fff;
-    font-family: 'Scheherazade-regular';
-    font-size: 16px;
+    font-family: 'Montserrat-regular';
+    font-size: 14px;
     line-height: 35px;
 }
 
 .footer-section p {
     color: #fff;
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
     font-size: 16px;
     margin-bottom: 15px;
 }
@@ -608,15 +647,15 @@ p.read-more {
 
 .footer-section p small {
     color: #fff;
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
     font-size: 15px;
     line-height: normal;
 }
 
 .footer-section p b {
     color: #fff;
-    font-family: 'Scheherazade-regular';
-    font-size: 20px;
+    font-family: 'Montserrat-regular';
+    font-size: 18px;
     letter-spacing: normal;
 }
 
@@ -643,7 +682,7 @@ p.location {
 
 .footer-section h6 b {
     color: #fff;
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
     font-size: 22px;
     font-weight: 400;
 
@@ -672,9 +711,9 @@ section.footer-social {
 .social-flex.row .copy-ryt p,
 .policy-col a {
     margin-bottom: 0;
-    font-size: 18px;
+    font-size: 16px;
     color: #274990;
-    font-family: 'Scheherazade-bold';
+    font-family: 'Montserrat-semibold';
 }
 
 .col-lg-4.policy-col {
@@ -821,7 +860,7 @@ p.connect-btn a {
 .header-new nav .links a:not(:has(img)) {
     font-size: 18px;
     color: #000000;
-    font-family: 'Scheherazade-bold';
+    font-family: 'Montserrat-bold';
 }
 
 .header-new nav .links {
@@ -880,24 +919,24 @@ nav .icon-burger .line {
 
 /* about us apge */
 .about-page .section-padding span {
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
     font-size: 20px;
 }
 
 .about-page h1 {
-    font-family: 'Scheherazade-bold';
+    font-family: 'Montserrat-bold';
     font-size: 50px;
     line-height: 52px;
 }
 
 .about-page h2 {
-    font-family: 'Scheherazade-bold';
+    font-family: 'Montserrat-bold';
     font-size: 40px;
 }
 
 .about-page p b,
 .about-page p {
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
     font-size: 15px;
 }
 
@@ -931,19 +970,19 @@ nav .icon-burger .line {
 }
 
 .team-inrcont h3 {
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
     font-size: 30px;
     margin: 0;
 }
 
 .team-inrcont h5 {
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
     font-size: 20px;
     font-weight: 500;
 }
 
 .team-inrcont p {
-    font-family: 'Scheherazade-regular';
+    font-family: 'Montserrat-regular';
     font-size: 18px;
     line-height: 20px;
 }
@@ -963,10 +1002,6 @@ nav .icon-burger .line {
         right: 0;
     }
 
-    .blog-inrcont h3 {
-        font-size: 20px;
-    }
-
 }
 
 @media (min-width: 1200px) {
@@ -978,7 +1013,6 @@ nav .icon-burger .line {
 @media screen and (max-width: 1200px) {
 
     .custom-btn {
-        font-size: 18px;
         padding: 10px 15px;
     }
 
@@ -986,6 +1020,11 @@ nav .icon-burger .line {
         font-size: 18px;
         line-height: 25px;
     }
+
+    .landmark-carousel .land-name h2 {
+        font-size: 40px;
+    }
+
 
 }
 
@@ -1027,7 +1066,6 @@ nav .icon-burger .line {
     }
 
     .landmark-carousel .Landloct-detail {
-        background: #00000099;
         position: unset;
         padding: 20px;
         width: 100%;
@@ -1113,8 +1151,18 @@ nav .icon-burger .line {
         width: 50%;
     }
 
-    .office-member{
+    .office-member {
         padding: 60px 0;
+    }
+
+    .landmark-carousel .land-name {
+        position: unset;
+        width: 100%;
+    }
+
+    .land-name:hover {
+        display: block;
+        height: auto;
     }
 
 }
@@ -1144,6 +1192,7 @@ nav .icon-burger .line {
 
     .row.tab-blogs .col-lg-4 {
         width: 100%;
+        margin-bottom: 20px;
     }
 
     .recent-all .tab-content {
@@ -1173,18 +1222,6 @@ nav .icon-burger .line {
 
     section.Landmark.py-5 {
         padding-bottom: 0rem !important;
-    }
-
-    .landmark-carousel button {
-        top: unset;
-    }
-
-    .landmark-carousel .owl-next {
-        right: 4%;
-    }
-
-    .landmark-carousel .owl-prev {
-        left: 4%;
     }
 
     .connect-btn {
@@ -1222,6 +1259,7 @@ nav .icon-burger .line {
 
     .blog-inrcont h3 {
         height: auto;
+        margin-bottom: 0;
     }
 
     .col-lg-4.director-imgt img {
@@ -1236,6 +1274,18 @@ nav .icon-burger .line {
         margin: 0;
     }
 
+    .footer-section a {
+        font-size: 18px;
+    }
+
+    .footer-section p b {
+        font-size: 25px;
+    }
+
+    .footer-certificate-link img {
+        width: 50%;
+    }
+
     section.recent-blog {
         background: #EFEFEF;
         padding: 2rem 0;
@@ -1244,6 +1294,11 @@ nav .icon-burger .line {
     .discover-content h2 {
         line-height: 29px;
     }
+
+    .landmark-carousel .Landloct-detail p {
+        font-size: 18px;
+    }
+
 
     .hillview-carousel .owl-nav button {
         background: #fff !important;
@@ -1283,34 +1338,17 @@ nav .icon-burger .line {
     .footer-section .row>div {
         padding: 0;
     }
+
     .member-detail {
         margin-top: 30px;
         width: 100%;
     }
-
 }
 
 @media screen and (max-width: 500px) {
-    .landmark-carousel .land-name h2 {
-        color: #fff;
-        margin: 0;
-        font-family: 'Scheherazade-bold';
-        text-transform: uppercase;
-        padding: 0 20px 0 0px;
-        font-size: 12px;
-        width: 100%;
-    }
 
     .discover-main .discover-img {
         padding: 0;
-    }
-
-    .landmark-carousel .Landloct-detail p {
-        color: #fff;
-        font-family: 'Scheherazade-regular';
-        font-size: 15px;
-        line-height: 20px;
-        margin: 0;
     }
 
     .landmark-carousel .Landloct-detail {
@@ -1325,6 +1363,19 @@ nav .icon-burger .line {
         font-size: 30px;
         margin: 20px;
     }
+
+    .landmark-carousel .location p {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .landmark-carousel .land-name {
+        padding: 10px;
+    }
+
+    .landmark-carousel .land-name h2 {
+        font-size: 35px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -1335,5 +1386,13 @@ nav .icon-burger .line {
 
     .recentnav.nav-pills {
         gap: 2px;
+    }
+
+    .landmark-carousel .location p {
+        font-size: 22px;
+    }
+
+    .landmark-carousel .Landloct-detail p {
+        font-size: 20px;
     }
 }
