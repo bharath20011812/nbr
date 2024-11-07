@@ -81,11 +81,41 @@ $(function () {
 });
 
 
-$('.moreless-button').click(function() {
-    $('.moretext').slideToggle();
-    if ($('.moreless-button').text() == "Less") {
-      $(this).text("More")
-    } else {
-      $(this).text("Less")
-    }
+// $('.moreless-button').click(function() {
+//     $('.moretext').slideToggle();
+//     if ($('.moreless-button').text() == "Less") {
+//       $(this).text("More")
+//     } else {
+//       $(this).text("Less")
+//     }
+//   });
+
+
+// counter section start
+// number count for stats, using jQuery animate
+
+$('.counting').each(function() {
+    var $this = $(this),
+        countTo = $this.attr('data-count');
+    
+    $({ countNum: $this.text()}).animate({
+      countNum: countTo
+    },
+  
+    {
+  
+      duration: 3000,
+      easing:'linear',
+      step: function() {
+        $this.text(Math.floor(this.countNum));
+      },
+      complete: function() {
+        $this.text(this.countNum);
+        //alert('finished');
+      }
+  
+    });  
+    
+  
   });
+  
