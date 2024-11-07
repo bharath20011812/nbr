@@ -412,8 +412,8 @@ section.leader-ship {
 
 .leadership-carousel p {
     font-family: 'Montserrat-regular';
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 30px;
     padding-right: 20px;
     color: #000;
 }
@@ -939,8 +939,9 @@ nav .icon-burger .line {
 
 /* about us apge */
 .about-page .section-padding span {
-    font-family: 'Montserrat-regular';
+    font-family: 'Montserrat-semibold';
     font-size: 20px;
+    line-height: normal;
 }
 
 .about-page h1 {
@@ -961,7 +962,7 @@ nav .icon-burger .line {
 }
 
 .about-page .leader-ship p {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .team-holder p {
@@ -990,21 +991,20 @@ nav .icon-burger .line {
 }
 
 .team-inrcont h3 {
-    font-family: 'Montserrat-regular';
-    font-size: 30px;
-    margin: 0;
+    font-family: 'Montserrat-bold';
+    font-size: 22px;
 }
 
 .team-inrcont h5 {
-    font-family: 'Montserrat-regular';
-    font-size: 20px;
-    font-weight: 500;
+    font-family: 'Montserrat-semibold';
+    font-size: 16px;
 }
 
 .team-inrcont p {
     font-family: 'Montserrat-regular';
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
+    color: #000;
 }
 
 .member-detail {
@@ -1013,6 +1013,69 @@ nav .icon-burger .line {
 
 .about-page .leader-ship {
     padding: 50px 0;
+}
+
+/* about us  */
+.about-nbr {
+    padding: 5rem 0 3rem;
+}
+
+.about-us .who-we {
+    letter-spacing: 3px;
+    font-family: 'Montserrat-semibold';
+    color: #264792 !important;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.about-us .col-lg-6 p {
+    color: #000;
+}
+
+.stats .main-counter {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats .main-counter p {
+    color: #274990;
+    font-size: 35px;
+    font-family: 'Montserrat-regular';
+}
+
+.stats .main-counter p.counting {
+    font-size: 55px;
+    font-family: 'Montserrat-bold';
+}
+
+.counter .col-lg-4.stats h5 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.counter .col-lg-4.stats {
+    position: relative;
+}
+
+.counter .col-lg-4.stats::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    border-right: 2px solid;
+    width: 3px;
+    height: 85px;
+    text-align: center;
+    top: 30%;
+}
+
+.counter .col-lg-4.stats:last-child::before {
+    border-right: 0;
+}
+
+.counter.counter-number {
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -1325,11 +1388,11 @@ nav .icon-burger .line {
     }
 
     .footer-section a {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .footer-section p b {
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .footer-certificate-link img {
