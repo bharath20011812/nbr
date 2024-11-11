@@ -1153,9 +1153,9 @@ nav .icon-burger .line {
 .banner-left h1 {
     font-size: 50px;
     color: #fff;
-    margin-bottom: 20px;
     font-weight: 600;
-    width: 100%;
+    width: 80%;
+    margin: auto 0 20px;
     font-family: 'Montserrat-bold';
 }
 
@@ -1409,6 +1409,7 @@ nav .icon-burger .line {
     .banner-left h1 {
         font-size: 40px;
         margin-bottom: 10px;
+        width: 100%;
     }
 
     .comming-soon .banner-form {
