@@ -1085,10 +1085,24 @@ nav .icon-burger .line {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-top: 4rem;
+    position: relative;
+}
+
+.comming-soon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust color and opacity as needed */
+    z-index: 1;
 }
 
 .comming-soon .banner-left.col-lg-8 {
     width: 70%;
+    text-align: center;
 }
 
 .comming-soon .banner-main {
@@ -1098,13 +1112,16 @@ nav .icon-burger .line {
     align-items: center;
     width: 100%;
     padding: 60px 0;
+    position: relative;
+    z-index: 2;
+    margin: auto;
 }
 
 .comming-soon .banner-left img {
     width: 100%;
 }
 
-.comming-soon .banner-form h3 {
+.comming-soon .banner-left h2 {
     text-align: center;
     color: #fff;
     font-size: 30px;
@@ -1136,10 +1153,10 @@ nav .icon-burger .line {
 .banner-left h1 {
     font-size: 50px;
     color: #fff;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     font-weight: 600;
-    width: 80%;
-    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat-bold';
 }
 
 .comming-soon .banner-form .vs-btn.style7 {
@@ -1383,7 +1400,21 @@ nav .icon-burger .line {
         gap: 30px;
     }
 
+    /* comming soon */
+    .comming-soon .banner-left.col-lg-8 {
+        width: 100%;
+        text-align: center;
+    }
 
+    .banner-left h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .comming-soon .banner-form {
+        width: 80%;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -1603,6 +1634,20 @@ nav .icon-burger .line {
         left: 0;
         text-align: center;
         margin: auto;
+    }
+
+    /* comming soon */
+    .comming-soon .banner-form {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .banner-left h1 {
+        font-size: 25px;
+    }
+
+    .comming-soon .banner-left h2 {
+        font-size: 20px;
     }
 }
 
