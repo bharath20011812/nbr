@@ -1130,8 +1130,9 @@ nav .icon-burger .line {
 .comming-soon .banner-form p {
     text-align: center;
     color: #fff;
-    margin: 0 0 30px;
+    margin: 0 0 20px;
     font-size: 25px;
+    font-family: 'Montserrat-bold';
 }
 
 .comming-soon .banner-form {
