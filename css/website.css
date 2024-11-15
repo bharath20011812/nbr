@@ -2683,7 +2683,9 @@ ul.arcprime-news-filter li.active {
 	border-radius: 3px;
 	text-align: center;
 }
-
+.news-newcover .white-box .header {
+    margin-bottom: 0;
+}
 .white-box:hover {
 	border-bottom: 6px solid #81bdd9;
 	transform: translateY(-10px)
