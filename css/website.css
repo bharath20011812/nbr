@@ -345,25 +345,25 @@ input[type=radio] {
 }
 
 h5.pop-head {
-    width: 100%;
-    text-align: center;
+	width: 100%;
+	text-align: center;
 }
 
 .modal-header {
-    border-bottom: 0 !important;
+	border-bottom: 0 !important;
 }
 
 .modal-body.referral-popup {
-    padding-top: 0;
+	padding-top: 0;
 }
 
 .referral-popup label input {
-    padding: 10px 15px;
-    margin-bottom: 5px;
+	padding: 10px 15px;
+	margin-bottom: 5px;
 }
 
 .referral-popup label {
-    width: 100%;
+	width: 100%;
 }
 
 @media (max-width:768px) {
@@ -686,115 +686,117 @@ h2:after {
 .ti-angle-down {
 	font-size: 11px
 }
+
 /* faq start */
 .faq-section .faqs-container {
-    overflow: hidden;
-    background: #FFFFFF;
-    border-radius: 5px;
+	overflow: hidden;
+	background: #FFFFFF;
+	border-radius: 5px;
 }
 
 
 .faqrow-main:last-child {
-    border-bottom: 0px;
+	border-bottom: 0px;
 }
 
 .faq-section .faq-singular {
-    position: relative;
-    border-bottom: 1px solid #9D9DA1;
-    padding: 20px 30px 20px 0;
-    width: 100%;
+	position: relative;
+	border-bottom: 1px solid #9D9DA1;
+	padding: 20px 30px 20px 0;
+	width: 100%;
 }
 
 .faq-singular .faq-question {
-    position: relative;
-    cursor: pointer;
-    margin: 0;
-    padding: 10px;
-    font-weight: 500;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
+	position: relative;
+	cursor: pointer;
+	margin: 0;
+	padding: 10px;
+	font-weight: 500;
+	font-size: 20px;
+	font-family: Poppins, sans-serif;
 }
 
 .faq-singular .faq-question:before {
-    position: absolute;
-    content: "+";
-    color: #fff;
-    right: -20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    font-weight: 700;
-    transition: all .5s;
-    background: #274891;
-    border-radius: 50px;
-    padding: 4px 10px;
-    font-family: 'Archivo-Regular';
+	position: absolute;
+	content: "+";
+	color: #fff;
+	right: -20px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 24px;
+	font-weight: 700;
+	transition: all .5s;
+	background: #274891;
+	border-radius: 50px;
+	padding: 4px 10px;
+	font-family: 'Archivo-Regular';
 }
 
 .faq-singular.active .faq-question:before {
-    transform: translateY(-50%) rotate(45deg) scale(1.3);
-    padding: 0px 7px;
+	transform: translateY(-50%) rotate(45deg) scale(1.3);
+	padding: 0px 7px;
 }
 
 .faqs-container .faq-answer {
-    display: none;
-    padding: 20px 0px 20px 30px;
-    font-size: 15px;
+	display: none;
+	padding: 20px 0px 20px 30px;
+	font-size: 15px;
 }
+
 /*breadcrumb*/
 .brdcrmb ul {
-list-style: none;
-padding-left: 0;
-margin: 0;
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
 }
 
 .brdcrmb li {
-float: left;
-margin-right: 15px;
-padding-right: 15px;
-position: relative;
-font-size: 1rem;
-font-family: "DMSans-Medium";
+	float: left;
+	margin-right: 15px;
+	padding-right: 15px;
+	position: relative;
+	font-size: 1rem;
+	font-family: "DMSans-Medium";
 }
 
 .brdcrmb li a {
-color: #A05947;
+	color: #A05947;
 }
 
 .brdcrmb .brdcrm_blistin:after {
-position: absolute;
-content: '>>';
-right: -9px;
-color: #999999;
-top: 20px;
+	position: absolute;
+	content: '>>';
+	right: -9px;
+	color: #999999;
+	top: 20px;
 }
 
 .brdcrmb .brdcrm_blistin:last-child span {
-    color: #7FB1C5;
+	color: #7FB1C5;
 }
 
 .brdcrmb .brdcrm_blistin:last-child:after {
-display: none;
+	display: none;
 }
 
 .brdcrm_blistin span {
-    font-size: 20px;
-    color: #000;
-    letter-spacing: normal;
+	font-size: 20px;
+	color: #000;
+	letter-spacing: normal;
 }
 
 
 .brdcrmb .brdcrm_blistin:last-child {
-position: unset;
+	position: unset;
 }
 
 .brdcrmb li:last-child a,
 .brdcrmb .brdcrm_blistin_2 a {
-pointer-events: none;
-color: #000;
+	pointer-events: none;
+	color: #000;
 }
 
-/* faq end */   
+/* faq end */
 
 @media (max-width:767px) {
 	.nav-item:after {
@@ -976,10 +978,10 @@ div#leadership-slider img:hover {
 
 .numb {
 	font-size: 100px;
-    line-height: 120px;
-    color: #9ed3eb;
-    pointer-events: none;
-    font-family: 'Scheherazade-regular';
+	line-height: 120px;
+	color: #9ed3eb;
+	pointer-events: none;
+	font-family: 'Scheherazade-regular';
 }
 
 .year {
@@ -1008,10 +1010,10 @@ div#leadership-slider img:hover {
 
 .title {
 	font-size: 25px;
-    color: #181b31;
-    font-weight: 300;
-    margin-bottom: 0;
-    font-family: 'Scheherazade-regular';
+	color: #181b31;
+	font-weight: 300;
+	margin-bottom: 0;
+	font-family: 'Scheherazade-regular';
 }
 
 .arcprime-project-filter li,
@@ -1053,7 +1055,7 @@ div#leadership-slider img:hover {
 	font-size: 18px;
 	font-weight: 300;
 	letter-spacing: 1px;
-    font-family: 'Scheherazade-regular';
+	font-family: 'Scheherazade-regular';
 }
 
 .team-holder .team-position {
@@ -2674,6 +2676,14 @@ ul.arcprime-news-filter li.active {
 	min-height: 410px
 }
 
+.news-newcover .white-box {
+	padding: 7% 5%;
+	box-shadow: 0 0 1px 2px #adadad57;
+	min-height: auto;
+	border-radius: 3px;
+	text-align: center;
+}
+
 .white-box:hover {
 	border-bottom: 6px solid #81bdd9;
 	transform: translateY(-10px)
@@ -2831,6 +2841,14 @@ ul.arcprime-news-filter li a {
 .white-box .header h2 {
 	font-size: 20px;
 	min-height: 80px
+}
+.news-newcover .white-box .header h2{
+	min-height: auto;
+	font-size: 25px;
+}
+.news-newcover .white-box p{
+	font-size: 20px;
+	margin: 0;
 }
 
 div#leadership-slider img {
@@ -3517,9 +3535,9 @@ p.configuration-check-price-button {
 }
 
 .section-padding.seo-content {
-    background: #FAFAFA;
-    padding: 20px 0;
-    text-align: justify;
+	background: #FAFAFA;
+	padding: 20px 0;
+	text-align: justify;
 }
 
 .bg_dark_blue,
@@ -6012,28 +6030,36 @@ a.btn-read-more {
 	-webkit-font-smoothing: antialiased;
 	letter-spacing: 0
 }
+
 /* 25-9-24 */
 button.readmore__toggle {
-    margin-top: 10px;
-    background: #7FB1C5;
-    border-radius: 5px;
-    outline:none;
+	margin-top: 10px;
+	background: #7FB1C5;
+	border-radius: 5px;
+	outline: none;
 }
-ul.footer-quick-link ,.footer-plots-link {
-    padding: 0;
+
+ul.footer-quick-link,
+.footer-plots-link {
+	padding: 0;
 }
+
 .footer-div-2 {
-    width: 15%;
+	width: 15%;
 }
+
 .footer-div-3 {
-    width: 16%;
+	width: 16%;
 }
-button.readmore__toggle:hover{
-	outline:none;
+
+button.readmore__toggle:hover {
+	outline: none;
 }
+
 .footer-div-1 {
-    padding-left: 3%;
+	padding-left: 3%;
 }
-.footer-div-4 a:hover{
+
+.footer-div-4 a:hover {
 	text-decoration: none;
 }
